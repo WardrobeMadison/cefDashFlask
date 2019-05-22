@@ -2,6 +2,7 @@ from cefpython3 import cefpython as cef
 import platform
 import sys
 
+# stops a blank white screen from rendering on windows machines
 switches = {
     "disable-gpu": "",
 }
